@@ -14,7 +14,6 @@ def pesquisar_produtos(nome):
             print(f'Item localizado {cont}: ', produto["nome"])
             break
         cont += 1
-    # Bloco else indentado corretamente
     else:
         print(f'Produto "{nome}" não encontrado.')
 
